@@ -31,15 +31,6 @@
         <!-- Main Content -->
         <main class="main-content">
             <header>
-                <div class="search-bar">
-                    <i class="fas fa-search"></i>
-                    <input type="text" placeholder="Search movies...">
-                </div>
-                <div class="user-profile">
-                    <a href="../acc page/index.php">
-                        <img src="../assets/profile.jpg" alt="Profile" class="profile-img">
-                    </a>
-                </div>
             </header>
 
             <div class="upload-container">
@@ -82,6 +73,30 @@
                                     </label>
                                 </div>
                             </div>
+
+                            <div class="form-group">
+                                <label for="age-rating">Age Rating</label>
+                                <select id="age-rating" name="age-rating" required>
+                                    <option value="">Select age rating</option>
+                                    <option value="G">G (General Audience)</option>
+                                    <option value="PG">PG (Parental Guidance)</option>
+                                    <option value="PG-13">PG-13 (Parental Guidance for children under 13)</option>
+                                    <option value="R">R (Restricted)</option>
+                                    <option value="NC-17">NC-17 (Adults Only)</option>
+                                </select>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="movie-trailer">Movie Trailer</label>
+                                <div class="trailer-input">
+                                    <input type="text" id="trailer-link" name="trailer-link" placeholder="Enter YouTube video URL">
+                                    <span class="trailer-note">* Paste YouTube video URL</span>
+                                </div>
+                                <div class="trailer-upload">
+                                    <input type="file" id="trailer-file" name="trailer-file" accept="video/*">
+                                    <span class="trailer-note">* Or upload video file</span>
+                                </div>
+                            </div>
                         </div>
 
                         <div class="form-side">
@@ -115,17 +130,7 @@
                                     </div>
                                 </div>
 
-                                <div class="form-group">
-                                    <label for="age-rating">Age Rating</label>
-                                    <select id="age-rating" name="age-rating" required>
-                                        <option value="">Select age rating</option>
-                                        <option value="G">G (General Audience)</option>
-                                        <option value="PG">PG (Parental Guidance)</option>
-                                        <option value="PG-13">PG-13 (Parental Guidance for children under 13)</option>
-                                        <option value="R">R (Restricted)</option>
-                                        <option value="NC-17">NC-17 (Adults Only)</option>
-                                    </select>
-                                </div>
+
                             </div>
                         </div>
                     </div>

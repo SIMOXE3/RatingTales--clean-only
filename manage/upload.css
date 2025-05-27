@@ -200,6 +200,47 @@
     font-size: 14px;
 }
 
+/* Trailer Input */
+.trailer-input {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.trailer-input input[type="text"] {
+    padding-right: 120px;
+}
+
+.trailer-upload {
+    position: relative;
+    background-color: #1a1a1a;
+    border: 1px solid #363636;
+    border-radius: 8px;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+.trailer-upload input[type="file"] {
+    width: 100%;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.trailer-note {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    font-size: 12px;
+}
+
+.trailer-upload .trailer-note {
+    position: static;
+    display: block;
+    margin-top: 5px;
+    transform: none;
+}
+
 /* Form Actions */
 .form-actions {
     display: flex;
