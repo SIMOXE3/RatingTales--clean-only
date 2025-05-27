@@ -16,19 +16,17 @@ $movies = []; // Empty array since user hasn't uploaded any movies yet
         <!-- Sidebar -->
         <div class="sidebar">
             <div class="logo">
-                <img src="../assets/logo.svg" alt="RatingTales Logo">
-                <span>RATE-TALES</span>
+                <h2>RATE-TALES</h2>
             </div>
-            <nav>
-                <a href="../beranda/index.php"><i class="fas fa-home"></i>Home</a>
-                <a href="../favorite/index.php"><i class="fas fa-heart"></i>Favourites</a>
-                <a href="../review/index.php"><i class="fas fa-star"></i>Review</a>
-                <a href="../manage/index.php" class="active"><i class="fas fa-film"></i>Manage</a>
-            </nav>
-            <div class="bottom-nav">
-                <a href="../settings/index.php"><i class="fas fa-cog"></i>Settings</a>
-                <a href="../logout/index.php"><i class="fas fa-sign-out-alt"></i>Logout</a>
-            </div>
+            <ul class="nav-links">
+                <li><a href="../beranda/index.php"><i class="fas fa-home"></i>Home</a></li>
+                <li><a href="../favorite/index.php"><i class="fas fa-heart"></i>Favourites</a></li>
+                <li><a href="../review/index.php"><i class="fas fa-star"></i>Review</a></li>
+                <li class="active"><a href="../manage/index.php"><i class="fas fa-film"></i>Manage</a></li>
+            </ul>
+            <ul class="bottom-links">
+                <li><a href="../logout/index.php"><i class="fas fa-sign-out-alt"></i>Logout</a></li>
+            </ul>
         </div>
 
         <!-- Main Content -->
