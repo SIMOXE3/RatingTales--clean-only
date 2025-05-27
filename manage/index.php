@@ -60,9 +60,9 @@ $movies = []; // Empty array since user hasn't uploaded any movies yet
                 <button class="edit-all-btn" title="Edit All Movies">
                     <i class="fas fa-edit"></i>
                 </button>
-                <button class="upload-btn" title="Upload New Movie">
+                <a href="upload.php" class="upload-btn" title="Upload New Movie">
                     <i class="fas fa-plus"></i>
-                </button>
+                </a>
             </div>
         </main>
     </div>
