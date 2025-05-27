@@ -36,8 +36,9 @@
                     <input type="text" placeholder="Search movies...">
                 </div>
                 <div class="user-profile">
-                    <i class="fas fa-bell"></i>
-                    <img src="../assets/profile.jpg" alt="Profile">
+                    <a href="../acc page/index.php">
+                        <img src="../assets/profile.jpg" alt="Profile" class="profile-img">
+                    </a>
                 </div>
             </header>
 
@@ -101,8 +102,17 @@
                                 </div>
                                 
                                 <div class="form-group">
-                                    <label for="duration">Film Duration (minutes)</label>
-                                    <input type="number" id="duration" name="duration" min="1" required>
+                                    <label for="duration-hours">Film Duration</label>
+                                    <div class="duration-inputs">
+                                        <div class="duration-field">
+                                            <input type="number" id="duration-hours" name="duration-hours" min="0" placeholder="Hours" required>
+                                            <span>Hours</span>
+                                        </div>
+                                        <div class="duration-field">
+                                            <input type="number" id="duration-minutes" name="duration-minutes" min="0" max="59" placeholder="Minutes" required>
+                                            <span>Minutes</span>
+                                        </div>
+                                    </div>
                                 </div>
 
                                 <div class="form-group">

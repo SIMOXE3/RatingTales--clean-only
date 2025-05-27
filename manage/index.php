@@ -37,7 +37,6 @@ $movies = []; // Empty array since user hasn't uploaded any movies yet
                     <input type="text" placeholder="Search movies...">
                 </div>
                 <div class="user-profile">
-                    <i class="fas fa-bell"></i>
                     <a href="../acc page/index.php">
                         <img src="../assets/profile.jpg" alt="Profile" class="profile-img">
                     </a>

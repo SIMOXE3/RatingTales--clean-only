@@ -47,6 +47,23 @@
     font-size: 16px;
 }
 
+.duration-inputs {
+    display: flex;
+    gap: 15px;
+}
+
+.duration-field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.duration-field span {
+    color: #666;
+    font-size: 12px;
+}
+
 .form-group input[type="text"],
 .form-group input[type="number"],
 .form-group input[type="date"],
