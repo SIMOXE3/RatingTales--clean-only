@@ -74,6 +74,8 @@ body {
     flex-grow: 1;
     margin-left: 250px;
     padding: 20px;
+    max-width: calc(100vw - 250px);
+    overflow-x: hidden;
 }
 
 /* Hero Section */
@@ -132,6 +134,7 @@ body {
     margin-bottom: 40px;
     width: 100%;
     overflow: hidden;
+    max-width: 100%;
 }
 
 .trending-section h2, .for-you-section h2 {
